@@ -1,0 +1,51 @@
+/*side nave*/
+#mySidenav{
+	position: fixed;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+#mySidenav a {
+	position: relative;
+	text-decoration: none;
+	display: block;
+  	text-align: center;
+  	padding: 20px;
+  	transition: .6s;
+  	color: white;
+  	font-size: 20px;
+	left: -150px;
+	width: 200px;
+	border-radius: 0 50px 50px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+	opacity: 0.7;
+}
+
+#side-menu-item-1 {
+    top: 30%;
+    background-color: rgba(15,235,231,1);
+}
+
+#side-menu-item-2 {
+    top: 40%;
+    background-color: rgba(12,57,10,1);
+}
+
+#side-menu-item-3 {
+    top: 50%;
+    background-color:rgba(5,59,63,1);
+}
+
+#side-menu-item-4 {
+    top: 60%;
+    background-color: rgba(66,9,10,1);
+}
+#side-menu-item-5 {
+	top: 70%;
+	background-color: rgba(0,0,0,1);
+}
